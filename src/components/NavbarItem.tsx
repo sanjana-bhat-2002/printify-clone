@@ -1,5 +1,5 @@
 import { useState } from "react";
-import items from "../lib/navbar-items";
+import { navbarItems } from "../lib/static-data";
 import { ChevronDown } from "lucide-react";
 
 interface NavbarItemProps {
@@ -55,7 +55,7 @@ const NavbarItem = ({ item }: NavbarItemProps) => {
 const NavbarItemList = () => {
   return (
     <ul className="flex flex-col gap-6 items-start justify-start p-2 px-6 md:flex-row w-full">
-      {items.map((item, index) => (
+      {navbarItems.map((item) => (
         <NavbarItem item={item} />
       ))}
     </ul>

@@ -1,4 +1,4 @@
-import { useState } from "react";
+
 
 import "./App.css";
 import MainLayout from "./layouts/MainLayout";
@@ -16,7 +16,7 @@ function App() {
         <Hero />
         <Features />
         <CTA />
-        {/* <Store /> */}
+        <Store />
         <Testimonials />
         <CTA2 />
       </MainLayout>

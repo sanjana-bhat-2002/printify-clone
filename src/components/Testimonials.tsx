@@ -1,6 +1,5 @@
-import React from "react";
 import Carousel from "./Carousel";
-
+import { testimonials } from "../lib/static-data";
 interface TestimonialSlideProps {
   image: string;
   name: string;
@@ -28,29 +27,7 @@ const TestimonialSlide = ({
   );
 };
 const Testimonials = () => {
-  const testimonials = [
-    {
-      image: "/higher-profits.svg",
-      name: "John Doe",
-      designation: "Etsy Merchant",
-      testimonial:
-        " We chose Printify because of their offerings as well as their incredibly low prices. After several years, we've come to find that their customer service is also top notch, and their platform just keeps getting better and better.",
-    },
-    {
-      image: "/higher-profits.svg",
-      name: "John Doe",
-      designation: "Etsy Merchant",
-      testimonial:
-        " We chose Printify because of their offerings as well as their incredibly low prices. After several years, we've come to find that their customer service is also top notch, and their platform just keeps getting better and better.",
-    },
-    {
-      image: "/higher-profits.svg",
-      name: "John Doe",
-      designation: "Etsy Merchant",
-      testimonial:
-        " We chose Printify because of their offerings as well as their incredibly low prices. After several years, we've come to find that their customer service is also top notch, and their platform just keeps getting better and better.",
-    },
-  ];
+  
   return (
     <section className=" bg-gray-100">
       <div className="flex mx-8 p-8 flex-col justify-center items-center">

@@ -1,4 +1,4 @@
-import { NavbarItem, NavbarItemList } from "./NavbarItem";
+import { NavbarItemList } from "./NavbarItem";
 
 const PCNav = () => {
   return (

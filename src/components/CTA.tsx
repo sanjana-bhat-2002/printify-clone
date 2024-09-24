@@ -1,6 +1,6 @@
-import React from "react";
-import Carousel from "./Carousel";
 
+import Carousel from "./Carousel";
+import { perks } from "../lib/static-data";
 interface FeatureSlideProps {
   image: string;
   mainHeading: string;
@@ -24,28 +24,7 @@ const FeatureSlide = ({
   );
 };
 const CTA = () => {
-  const features = [
-    {
-      image: "https://printify.com/pfh/assets/legacy/custom-products.png",
-      mainHeading: "CREATE",
-      subHeading: "custom products",
-      description:
-        " Easily add your designs to a wide range of products using our free tools.",
-    },
-    {
-      image: "https://printify.com/pfh/assets/legacy/your-products.png",
-      mainHeading: "SELL",
-      subHeading: "on your terms",
-      description: "You choose the products, sale price, and where to sell.",
-    },
-    {
-      image: "https://printify.com/pfh/assets/legacy/fullfillment.png",
-      mainHeading: "WE HANDLE",
-      subHeading: "fulfillment",
-      description:
-        " Once an order is placed, we automatically handle all the printing and delivery logistics.",
-    },
-  ];
+  
   return (
     <>
       <section className="lg:mx-24 mt-16">
@@ -91,7 +70,7 @@ const CTA = () => {
 
       <section className="flex flex-col justify-center items-center gap-4 p-6 md:flex-row">
         <div className="hidden md:flex">
-          {features.map((item) => (
+          {perks.map((item) => (
             <div className="flex flex-col items-center justify-center mt-16 md:px-8 md:w-1/3">
               <img src={item.image} alt="" className="rounded-full w-32 h-32" />
               <h2 className="text-lg text-green-500 font-bold">
@@ -107,7 +86,7 @@ const CTA = () => {
 
         <div className="flex md:hidden">
           <Carousel
-            slides={features.map((feature, index) => (
+            slides={perks.map((feature, index) => (
               <FeatureSlide
                 key={index}
                 image={feature.image}

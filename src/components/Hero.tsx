@@ -1,12 +1,8 @@
 import { Check, CirclePlay } from "lucide-react";
 import Lottie from "lottie-react";
 import animation from "../assets/animation.json";
+import { heroItems } from "../lib/static-data";
 const Hero = () => {
-  const heroItems = [
-    "100% Free to use",
-    "900+ High-Quality Products",
-    "Largest global print network",
-  ];
   return (
     <section className="text-gray-600 body-font bg-[url('https://printify.com/pfh/media/background-IAMAETLT.svg')] bg-no-repeat lg:bg-right bg-bottom mb-8">
       <div className="container mx-auto flex xl:px-48 pt-36 md:flex-row flex-col center">
