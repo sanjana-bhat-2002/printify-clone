@@ -37,11 +37,11 @@ const NavbarItem = ({ item }: NavbarItemProps) => {
 
       {/* Display children only on hover */}
       {isHovered && item.children && (
-        <ul className="lg:absolute lg:border top-8 flex flex-col items-start text-lg justify-center gap-2 w-36 mt-4  bg-white">
+        <ul className="lg:absolute lg:border top-1 rounded-xl  flex flex-col items-start text-lg justify-center gap-2 w-36 mt-4  bg-white">
           {item.children.map((child, index) => (
             <li
               key={index}
-              className="p-2 w-full text-black cursor-pointer hover:text-green-500"
+              className="p-2 text-sm w-full text-black cursor-pointer hover:text-green-500"
             >
               <a href="#">{child}</a>
             </li>
