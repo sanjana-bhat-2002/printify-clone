@@ -20,11 +20,11 @@ const Hero = () => {
               ))}
             </ul>
 
-            <div className="flex justify-center items-center mt-8 w-full sm:w-3/4 md:w-full lg:w-3/4">
+            <div className="flex whitespace-nowrap justify-center items-center mt-8 w-full sm:w-3/4 md:w-full lg:w-3/4">
               <button className="text-md w-1/2 font-semibold flex justify-center items-center text-white bg-green-500  border-0 py-2 px-2 focus:outline-none hover:bg-green-600 rounded">
                 Start for free
               </button>
-              <button className="ml-4 text-md w-1/2 flex justify-center items-center gap-2 text-gray-700 border border-gray-400 py-2 px-2 focus:outline-none hover:text-green-500 rounded">
+              <button className="ml-4 whitespace-nowrap text-md w-1/2 flex justify-center items-center gap-2 text-gray-700 border border-gray-400 py-2 px-2 focus:outline-none hover:text-green-500 rounded">
                 <CirclePlay className="w-5 h-5 text-gray-600" />
                 How it works
               </button>

@@ -20,7 +20,7 @@ const Footer = () => {
   ];
   return (
     <footer className="">
-      <div className="flex mx-8 my-12 flex-col justify-between items-start gap-4 sm:flex-row">
+      <div className="flex mx-8 mt-12 flex-col justify-between items-start gap-4 sm:flex-row">
         <a className="flex title-font font-medium items-center text-gray-900">
           <img
             src="https://printify.com/pfh/media/logo-old-B5JY5YNQ.svg"
@@ -29,7 +29,7 @@ const Footer = () => {
           />
         </a>
 
-        <div className="flex justify-center items-center gap-3 ">
+        <div className="flex justify-center items-center gap-3 mr-16">
           {socials.map((item) => (
             <div className="flex justify-center items-center rounded-full bg-green-500 p-2">
               <SVG

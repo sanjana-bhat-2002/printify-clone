@@ -14,7 +14,7 @@ const TestimonialSlide = ({
   testimonial,
 }: TestimonialSlideProps) => {
   return (
-    <div className="mx-16 rounded-xl w-1/2 mb-8 max-w-md  p-8 flex flex-col gap-8 items-start justify-center mt-8 md:px-8 bg-white">
+    <div className="rounded-xl w-2/3 lg:w-1/2 max-w-lg mb-8 p-8 flex flex-col gap-8 items-start justify-center mt-8 md:px-8 bg-white">
       <div className="flex items-center justify-center gap-8">
         <img src={image} className="w-12 h-12 rounded-xl" alt="" />
         <div className="flex flex-col justify-center items-start">

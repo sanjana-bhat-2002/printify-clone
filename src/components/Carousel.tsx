@@ -35,7 +35,7 @@ export default function Carousel({ slides }: CarouselProps) {
         ))}
       </div>
 
-      <div className="h-full w-3/4 lg:w-1/2 justify-between items-center flex text-white px-10 text-3xl">
+      <div className="h-full w-full sm:w-3/4 lg:w-1/2 justify-between items-center flex text-white px-10 text-3xl">
         <button onClick={previousSlide}>
           <ChevronLeft className="text-gray-600" />
         </button>
