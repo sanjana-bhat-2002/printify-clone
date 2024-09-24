@@ -9,8 +9,8 @@ const Store = () => {
           marketplaces
         </p>
 
-        <div className="p-8 hidden lg:flex relative h-[500px] mt-8 w-full lg:w-2/3 bg-[url('https://printify.com/pfh/media/stores-background-QSGENTOX.svg')] bg-no-repeat bg-cover bg-center">
-          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 shadow-2xl w-32 h-32 bg-green-500 rounded-2xl flex justify-center items-center">
+        <div className="p-8 hidden mx-auto lg:flex relative h-[500px] mt-8 w-full lg:w-3/4 2xl:w-[1000px] bg-[url('https://printify.com/pfh/media/stores-background-QSGENTOX.svg')] bg-no-repeat bg-cover bg-center">
+          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/4 -translate-y-24 shadow-2xl w-32 h-32 bg-green-500 rounded-2xl flex justify-center items-center">
             <img
               className="w-12 h-20"
               src="https://printify.com/pfh/media/printify-E3TBSF5R.svg"
@@ -101,7 +101,7 @@ const Store = () => {
 
 
       </div>
-      <div className='rounded-2xl mt-16 mx-auto w-3/4 bg-green-100 flex flex-col justify-between items-start gap-8 md:flex-row p-12 bg-[url("https://printify.com/pfh/media/talk-to-sales-N2GDBAGC.svg")] bg-no-repeat bg-contain bg-bottom md:bg-right'>
+      <div className='rounded-2xl mt-28 mx-auto w-3/4 bg-green-100 flex flex-col justify-between items-start gap-8 md:flex-row p-12 bg-[url("https://printify.com/pfh/media/talk-to-sales-N2GDBAGC.svg")] bg-no-repeat bg-contain bg-bottom md:bg-right'>
         <p className="text-green-900 text-lg font-bold">
           Are you a large business looking for custom solutions?
         </p>

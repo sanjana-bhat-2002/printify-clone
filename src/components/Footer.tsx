@@ -19,8 +19,8 @@ const Footer = () => {
     "Tiktok Shop",
   ];
   return (
-    <footer className="">
-      <div className="flex mx-8 mt-12 flex-col justify-between items-start gap-4 sm:flex-row">
+    <footer>
+      <div className="flex mx-16 mt-12 flex-col justify-between items-start gap-4 sm:flex-row">
         <a className="flex title-font font-medium items-center text-gray-900">
           <img
             src="https://printify.com/pfh/media/logo-old-B5JY5YNQ.svg"
@@ -43,7 +43,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-2 lg:grid-cols-4 p-8">
+      <div className="grid grid-cols-2 lg:grid-cols-4 p-8 mx-8">
         {Array.from({ length: 4 }).map((_, i) => (
           <div
             key={i}
